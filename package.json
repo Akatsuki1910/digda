@@ -1,0 +1,30 @@
+{
+  "name": "digda",
+  "description": "This is a knob in place of a slider.",
+  "version": "1.0.0",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "production": "webpack --mode production",
+    "prepublishOnly": "webpack --mode production"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/runtime-corejs3": "^7.11.2",
+    "babel-jest": "^26.3.0",
+    "babel-loader": "^8.1.0",
+    "core-js": "^3.6.5",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "main": "webpack.config.js",
+  "author": "",
+  "license": "ISC"
+}
